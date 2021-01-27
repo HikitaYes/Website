@@ -1,0 +1,30 @@
+<div class="background-img">
+	<img src="img/booking.jpg" alt="background image">
+</div>
+
+<main class="main">
+	<div class="container">
+		<h1 class="title">Бронирование столиков</h1>
+		<div class="data">
+			<form action="/" method="post">
+				<p>Укажите ваши данные:</p>
+				<input type="text" name="name" placeholder="Ваше имя" required="">
+				<input type="tel" name="phonenumber" value="" placeholder="+7 (xxx) xxx-xx-xx" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" required="">
+
+				<p>Выберите столик:</p>
+				<select name="table">
+					<option>Стол №1</option>
+					<option>Стол №2</option>
+					<option>Стол №3</option>
+					<option>Стол №4</option>
+					<option>Стол №5</option>
+					<option>Стол №6</option>
+				</select>
+				<p class="message">{{message}}</p>
+				
+				<input type="submit" name="">
+			</form>
+			<p class="success">{{success}}</p>
+		</div>
+	</div>
+</main>
