@@ -1,4 +1,4 @@
-# Website
-Website Restaurant
+# Веб-сайт Ресторана
+Прототип сайта для заведения: Кабачок "У Солодушкина"
 
 https://stark-ravine-54413.herokuapp.com/
